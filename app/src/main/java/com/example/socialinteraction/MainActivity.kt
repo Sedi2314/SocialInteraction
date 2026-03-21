@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        
+
 
             btnSubmit.setOnClickListener{
                 socialInput.text.toString()
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                     socialOutput.setText(" leave a thoughtful comment on a friends post!")
 
                 }else{
-                    socialOutput.setText("please eneter correct time of day!")
+                    socialOutput.setText("please enter correct time of day!")
                 }
 
 
