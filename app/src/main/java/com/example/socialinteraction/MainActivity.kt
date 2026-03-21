@@ -61,8 +61,6 @@ class MainActivity : AppCompatActivity() {
                 else if(socialInput == "afternoon dinner/night"){
                     socialOutput.setText(" leave a thoughtful comment on a friends post!")
 
-                }else{
-                    socialOutput.text="Please enter correct time of day "
                 }
 
 
