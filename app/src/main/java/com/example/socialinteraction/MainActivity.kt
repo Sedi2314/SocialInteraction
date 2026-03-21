@@ -29,17 +29,21 @@ class MainActivity : AppCompatActivity() {
         btnSubmit=findViewById(R.id.btnSubmit)
 
 
-        btnSubmit.setOnClickListener{
-            socialInput.text.toString()
+        btnReset.setOnClickListener {
+            socialInput.text.clear()
+            socialOutput.setText("")
 
         }
 
 
 
 
-        btnReset.setOnClickListener {
-                socialInput.text.clear()
-                socialOutput.setText("")
+        
+
+            btnSubmit.setOnClickListener{
+                socialInput.text.toString()
+
+
 
                 val socialInput = socialOutput.text.toString().lowercase().trim()
 
@@ -61,6 +65,8 @@ class MainActivity : AppCompatActivity() {
                 else if(socialInput == "afternoon dinner/night"){
                     socialOutput.setText(" leave a thoughtful comment on a friends post!")
 
+                }else{
+                    socialOutput.setText("please eneter correct time of day!")
                 }
 
 
