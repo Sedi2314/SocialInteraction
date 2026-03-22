@@ -64,44 +64,32 @@
         android:id="@+id/socialOutput"
         android:layout_width="295dp"
         android:layout_height="107dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="57dp"
         android:background="@color/white"
         android:textAlignment="center"
         android:textColor="#0B0101"
         android:textSize="20sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSubmit" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="312dp" />
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="128dp"
         android:layout_height="61dp"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="89dp"
-        android:layout_marginEnd="142dp"
         android:backgroundTint="#009688"
         android:text="Reset"
         android:textAlignment="center"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/socialOutput" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="514dp" />
 
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="132dp"
         android:layout_height="62dp"
-        android:layout_marginStart="137dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="142dp"
         android:backgroundTint="#009688"
         android:text="Submit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/socialInput" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="514dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
