@@ -54,6 +54,8 @@
         android:ems="10"
         android:inputType="text"
         android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -68,6 +70,8 @@
         android:background="@color/white"
         android:textAlignment="center"
         android:textColor="#0B0101"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSubmit" />
