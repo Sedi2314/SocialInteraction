@@ -41,29 +41,27 @@ class MainActivity : AppCompatActivity() {
 
 
             btnSubmit.setOnClickListener{
-                socialInput.text.toString()
-
 
 
                 val socialInput = socialOutput.text.toString().lowercase().trim()
 
                 if (socialInput == "morning") {
-                    socialOutput.setText("Good morning text to family member!")
+                    socialOutput.setText("Good morning text to family member!");
 
                 } else if (socialInput == "mid morning"){
-                    socialOutput.setText("reach out to a colleague with a quick 'Thank you'!")
+                    socialOutput.setText("reach out to a colleague with a quick 'Thank you'!");
                 }
                 else if(socialInput == "afternoon"){
-                    socialOutput.setText("share a funny meme or interesting link with a friend!")
+                    socialOutput.setText("share a funny meme or interesting link with a friend!");
                 }
                 else if(socialInput == "afternoon snack time"){
-                    socialOutput.setText("send a quick 'thinking of you'messege!")
+                    socialOutput.setText("send a quick 'thinking of you'messege!");
 
                 } else if(socialInput == "dinner"){
-                    socialOutput.setText("call a friend or relative for a 5 minute catchup!")
+                    socialOutput.setText("call a friend or relative for a 5 minute catchup!");
                 }
                 else if(socialInput == "afternoon dinner/night"){
-                    socialOutput.setText(" leave a thoughtful comment on a friends post!")
+                    socialOutput.setText(" leave a thoughtful comment on a friends post!");
 
                 }else{
                     socialOutput.setText("please enter correct time of day!")
