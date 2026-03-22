@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             btnSubmit.setOnClickListener{
 
 
-                val socialInput = socialOutput.text.toString().lowercase().trim()
+                val socialInput = socialInput.text.toString().lowercase().trim()
 
                 if (socialInput == "morning") {
                     socialOutput.setText("Good morning text to family member!");
