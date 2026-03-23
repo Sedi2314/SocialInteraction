@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
 
             btnSubmit.setOnClickListener{
 
-
                 val socialInput = socialInput.text.toString().lowercase().trim()
 
                 if (socialInput == "morning") {
