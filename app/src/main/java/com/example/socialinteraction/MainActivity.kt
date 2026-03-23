@@ -49,22 +49,25 @@ class MainActivity : AppCompatActivity() {
                     socialOutput.setText("Good morning text to family member");
 
                 } else if (socialInput == "mid morning"){
-                    socialOutput.setText("reach out to a colleague with a quick 'Thank you");
+                    socialOutput.setText("Reach out to a colleague with a quick 'Thank you' ");
                 }
                 else if(socialInput == "afternoon"){
-                    socialOutput.setText("share a funny meme or interesting link with a friend");
+                    socialOutput.setText("Share a funny meme or interesting link with a friend");
                 }
                 else if(socialInput == "afternoon snack time"){
-                    socialOutput.setText("send a quick 'thinking of you'messege");
+                    socialOutput.setText("Send a quick 'Thinking of you' messege");
 
                 } else if(socialInput == "dinner"){
-                    socialOutput.setText("call a friend or relative for a 5 minute catchup");
+                    socialOutput.setText("Call a friend or relative for a 5 minute catchup");
                 }
-                else if(socialInput == "afternoon dinner/night"){
-                    socialOutput.setText(" leave a thoughtful comment on a friends post");
+                else if(socialInput == "night"){
+                    socialOutput.setText(" Leave a thoughtful comment on a friends post");
+
+                }else if(socialInput == "afternoon dinner") {
+                    socialOutput.setText(" Leave a thoughtful comment on a friends post");
 
                 }else{
-                    socialOutput.setText("please enter correct time of day")
+                    socialOutput.setText("Please enter correct time of day")
                 }
 
 
