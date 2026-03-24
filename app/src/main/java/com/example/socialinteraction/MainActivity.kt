@@ -10,6 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+
+    //this part of my code is where I declared my variables
     lateinit var socialInput: EditText
     lateinit var socialOutput: TextView
     lateinit var btnReset: Button
@@ -22,6 +24,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        /*//Now that I have declared my variables I have typed a code for the variables to
+         now actually display on the actual phone.*/
         setContentView(R.layout.activity_main)
         socialInput =findViewById(R.id.socialInput)
         socialOutput=findViewById(R.id.socialOutput)
@@ -29,17 +34,17 @@ class MainActivity : AppCompatActivity() {
         btnSubmit=findViewById(R.id.btnSubmit)
 
 
+// Reset button logic
         btnReset.setOnClickListener {
             socialInput.text.clear()
             socialOutput.setText("")
 
         }
-
-
-
-
-
-
+/*//Submit button logic including the logic of the assignment where I used if
+// statement conditions to create an app where if you type in a specific day of
+// time it shows you what you are supposed yo to at that specific day of time
+including my lase else statement which indicates what will happen if the user does
+not type the right day of time it will tell them to input the correct day of time */
             btnSubmit.setOnClickListener{
 
                 val socialInput = socialInput.text.toString().lowercase().trim()
