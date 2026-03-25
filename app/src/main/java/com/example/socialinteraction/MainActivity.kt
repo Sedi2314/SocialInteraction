@@ -78,9 +78,10 @@ not type the right day of time it will tell them to input the correct day of tim
                     Log.d("App debug","afternoon dinner executed")
                     socialOutput.setText(" Leave a thoughtful comment on a friends post");
 
-                }else{
-                    Log.d("App debug","mInvalid input received")
+                }else {
+                    Log.d("App debug", "Invalid input received")
                     socialOutput.setText("Please enter correct time of day")
+
                 }
 
 
