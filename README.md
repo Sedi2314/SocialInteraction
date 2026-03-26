@@ -27,7 +27,7 @@ Logic was powered using the kotline language to handle user data and conditional
 -UI framework( XML and Android Studio)
 -Version control(Git Hub)
      
-   <div align="center">
+   
 <div align="center">
 <h5🚀 How to Run:Clone this repository:></h5>
 -Open the project in Android Studio.
