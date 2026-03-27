@@ -1,4 +1,4 @@
-name: Generated APK AAB (Upload - Create Artifact To Github Action)
+name: Android CI
 
 env:
   # The name of the main module repository
@@ -9,7 +9,8 @@ env:
 
 on:
 #Where release is writen , must match your branch name , I would suggest cloning your branch  at the end called release so it only builds the final code called release
-  push: [master]
+  push:
+    branches: [master]
   pull_request:
     branches: [master]
 
