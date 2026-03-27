@@ -28,14 +28,15 @@ jobs:
       - name: Set Up JDK 17
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
+          distribution: 'temurin' # See 'Supported distributions' for available options
+
 
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
 
       # Create APK Debug
-      - name: Accept Andriod SDK licenses
+      - name: Accept Android SDK licenses
         run: yes | $ANDRIOD_HOME/cmdline-latest/bin/sdkmanager --licenses
 
          # Run Tests Builde
