@@ -40,12 +40,12 @@ jobs:
         run: yes | $ANDRIOD_HOME/cmdline-latest/bin/sdkmanager --licenses
 
          # Run Tests Builde
-      - name: Run gradle tests
-        run: ./gradlew test
+      - name: Build with Gradle
+        run: ./gradlew build
 
       # Run Build Project
-      - name: Build gradle project
-        run: ./gradlew build
+      - name: Run tests
+        run: ./gradlew test
 
     
       
