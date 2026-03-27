@@ -1,5 +1,5 @@
-<div align="center">
-<h1><b> SOCIAL SPARK</b></h1>
+
+ # SOCIAL SPARK
   
 <div align="center">
 <h2><b>Social Interaction App for reminders</b></h2>
