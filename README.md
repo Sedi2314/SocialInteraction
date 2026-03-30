@@ -16,20 +16,20 @@ Logic was powered using the kotline language to handle user data and conditional
   
   <div align="center">
 <h5><b>Code:</b></h5> 
-<img width="300" height="600" alt="lateinit logic" src="https://github.com/user-attachments/assets/d7d44479-07be-410a-b35b-ad9941647af6" />
-<img width="300" height="600" alt="find view logic" src="https://github.com/user-attachments/assets/d3c1bc7d-659a-4dc7-b2ac-55f823ccc71d" />
-<img width="300" height="600" alt="Code logic for reset button" src="https://github.com/user-attachments/assets/4eff4371-9729-4408-803b-c5fd9176ce94" />
-<img width="300" height="600" alt="Code logic" src="https://github.com/user-attachments/assets/17eb633f-0cdc-4d7a-b390-836bfc9bff7c" />
+<u><img width="300" height="600" alt="lateinit logic" src="https://github.com/user-attachments/assets/d7d44479-07be-410a-b35b-ad9941647af6" /></u>
+<u><img width="300" height="600" alt="find view logic" src="https://github.com/user-attachments/assets/d3c1bc7d-659a-4dc7-b2ac-55f823ccc71d" />
+<u><img width="300" height="600" alt="Code logic for reset button" src="https://github.com/user-attachments/assets/4eff4371-9729-4408-803b-c5fd9176ce94" /></u>
+<u><img width="300" height="600" alt="Code logic" src="https://github.com/user-attachments/assets/17eb633f-0cdc-4d7a-b390-836bfc9bff7c" /></u>
     
  <div align="center">
 <h5><b>🛠️ Tech Stack</b>:</h5> 
--Language ( Kotlin)
--UI framework( XML and Android Studio)
--Version control(Git Hub)
+<u>-Language ( Kotlin)</u>
+<u>-UI framework( XML and Android Studio)</u>
+<u>-Version control(Git Hub)</u>
      
    
 <div align="center">
-<h5🚀 How to Run:Clone this repository:></h5>
--Open the project in Android Studio.
--Sync the project with Gradle files.
--Run the app on an emulator or a physical device.
+<h5>🚀 How to Run:Clone this repository:</h5>
+<u>-Open the project in Android Studio</u>
+<u>-Sync the project with Gradle files</u>
+<u>-Run the app on an emulator or a physical device</u>
